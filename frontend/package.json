@@ -9,11 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "axios": "^1.6.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cytoscape": "^3.28.1",
+    "lucide-react": "^1.40.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "cytoscape": "^3.28.1",
-    "react-cytoscapejs": "^2.0.0",
-    "axios": "^1.6.2"
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
