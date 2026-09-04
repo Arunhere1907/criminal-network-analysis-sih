@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --color-background: #F7F6F4;
+  --color-surface: #FFFFFF;
+  --color-foreground: #1C1917;
+  --color-muted: #F0EEEA;
+  --color-muted-foreground: #78716C;
+  --color-border: #E7E5E4;
+  --color-primary: #1E3A5F;
+  --color-primary-foreground: #FFFFFF;
+  --color-accent: #8B6914;
+  --color-risk: #B91C1C;
+  --color-warning: #B45309;
+  --color-success: #166534;
+  --color-ring: #1E3A5F;
+
+  --radius-sm: 3px;
+  --radius: 4px;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+  }
+
+  button,
+  [role="button"] {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* Cytoscape container — isolated from utility resets */
+.cy-container {
+  width: 100%;
+  height: 100%;
+}

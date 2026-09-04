@@ -156,8 +156,10 @@ def get_risk_queue():
                     "status": edge.get('status'),
                     "source_id": s_id,
                     "source_names": s_node.get('names', [s_id]),
+                    "source_role": s_node.get('role', 'contact'),
                     "target_id": t_id,
-                    "target_names": t_node.get('names', [t_id])
+                    "target_names": t_node.get('names', [t_id]),
+                    "target_role": t_node.get('role', 'contact'),
                 })
         
         items.sort(key=lambda x: x.get('risk_score', 0.0), reverse=True)

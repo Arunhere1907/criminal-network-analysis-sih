@@ -1,38 +1,54 @@
-# Criminal Network Analysis System — SIH Prototype
+# Criminal Network Analysis System (CNA)
 
-## Overview
-This project is a multi-source data fusion prototype designed to detect hidden criminal network connections. It demonstrates its capabilities through a narcotics trafficking ring scenario, fusing disparate data streams (telecom, financial, police records, colocation) into a graph database and evaluating risk signals.
+SIH prototype for discovering hidden relationships in a criminal network by fusing telecom, financial, co-location, and case evidence into a graph, then surfacing fused risk findings for investigator review.
+
+The UI is an investigator-facing workstation: network exploration, risk review, community analysis, and an immutable audit ledger.
+
+## Core capabilities
+
+- Interactive graph exploration (Cytoscape.js)
+- Multi-source evidence fusion and risk scoring
+- Potential-risk queue with confirm / dismiss
+- Node investigation panel (identity, timeline, centrality)
+- Louvain community detection
+- Root-cause traversal from case events
+- Cryptographic audit ledger with chain verification
 
 ## Architecture
 
-```mermaid
-graph TD
-    A[Synthetic Data] --> B(Extractors)
-    B -->|Nodes & Edges| C[(Neo4j Graph)]
-    C --> D(Fusion Scorer)
-    D -->|Risk Scores| C
-    C <--> E(FastAPI Backend)
-    E <--> F[React Dashboard]
-    
-    Z[(Audit Ledger SQLite)] -.-> B
-    Z -.-> D
-    Z -.-> E
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style C fill:#0f0,stroke:#333,stroke-width:2px
-    style Z fill:#ff9,stroke:#333,stroke-width:2px
+```text
+React (Vite)  →  FastAPI  →  Graph store (Neo4j or embedded NetworkX JSON)
+                              + SQLite audit ledger
 ```
 
-The Audit Ledger operates as a cross-cutting concern to guarantee chain of custody and data provenance for all extracted information and analyst decisions.
+When Neo4j is unavailable, the backend falls back to an embedded graph store (`data/graph_store.json`) so the prototype remains runnable locally without Docker.
+
+## Tech stack
+
+| Layer | Technology |
+|-------|------------|
+| Frontend | React 18, Vite, Tailwind CSS, Cytoscape.js, Axios, Lucide |
+| Backend | Python, FastAPI, NetworkX (embedded), optional Neo4j GDS |
+| Data | Synthetic CDR / financial / co-location / FIR CSV inputs |
+| Provenance | SQLite hash-chained audit ledger |
 
 ## Prerequisites
+
 - Python 3.11+
 - Node.js 18+
-- Docker (for Neo4j)
+- Optional: Docker (for Neo4j)
 
-## Quick Start
+## Run locally
 
-1. **Start Neo4j:**
+### 1. Backend
+
+```bash
+pip install -r backend/requirements.txt
+uvicorn backend.main:app --reload --port 8000
+```
+
+Optional Neo4j:
+
 ```bash
 docker run -d --name neo4j-criminal-network \
   -p 7474:7474 -p 7687:7687 \
@@ -41,82 +57,59 @@ docker run -d --name neo4j-criminal-network \
   neo4j:5-community
 ```
 
-2. **Install Python dependencies:**
-```bash
-pip install -r backend/requirements.txt
-```
+Regenerate / reload synthetic data (optional; demo data is already present under `data/`):
 
-3. **Generate synthetic data & run pipeline:**
-```bash
-python scripts/generate_synthetic_data.py
-python scripts/load_data.py
-python -c "from backend.entity_resolution import EntityResolver; from backend.neo4j_client import Neo4jClient; from backend.ledger import AuditLedger; r = EntityResolver(Neo4jClient(), AuditLedger()); print(r.resolve())"
-python -c "from backend.extractors.cdr_extractor import CDRExtractor; from backend.neo4j_client import Neo4jClient; from backend.ledger import AuditLedger; e = CDRExtractor(Neo4jClient(), AuditLedger()); print(e.extract())"
-python -c "from backend.extractors.financial_extractor import FinancialExtractor; from backend.neo4j_client import Neo4jClient; from backend.ledger import AuditLedger; e = FinancialExtractor(Neo4jClient(), AuditLedger()); print(e.extract())"
-python -c "from backend.extractors.colocation_extractor import ColocationExtractor; from backend.neo4j_client import Neo4jClient; from backend.ledger import AuditLedger; e = ColocationExtractor(Neo4jClient(), AuditLedger()); print(e.extract())"
-python -c "from backend.extractors.case_extractor import CaseExtractor; from backend.neo4j_client import Neo4jClient; from backend.ledger import AuditLedger; e = CaseExtractor(Neo4jClient(), AuditLedger()); print(e.extract())"
-python -c "from backend.fusion import FusionScorer; from backend.neo4j_client import Neo4jClient; from backend.ledger import AuditLedger; f = FusionScorer(Neo4jClient(), AuditLedger()); print(f.run())"
-```
-Or simply:
 ```bash
 python scripts/run_pipeline.py
 ```
 
-4. **Start backend:**
-```bash
-uvicorn backend.main:app --reload --port 8000
-```
+### 2. Frontend
 
-5. **Start frontend:**
 ```bash
 cd frontend
+cp .env.example .env   # optional; defaults to http://localhost:8000
 npm install
 npm run dev
 ```
 
-## Demo Script
+Open the URL printed by Vite (typically `http://127.0.0.1:5173`).
 
-Follow these steps to demonstrate the full capabilities of the system:
+## Demo workflow
 
-1. **Show full graph** — It initially looks like a normal social or communications network.
-2. **Open Potential Risk queue** — Highlight a financier-courier pair with zero direct calls but flagged by the system due to a high risk score.
-3. **Click into evidence breakdown** — Show 2 co-location events + 1 financial transaction that individually mean nothing but fused together crossed the threshold.
-4. **Confirm the flag** — A new edge is formed in the graph, and a new unalterable ledger block is recorded.
-5. **Root-cause traversal** — From a seized-drugs FIR, walk backward through the graph to the earliest connected event.
-6. **Centrality** — Demonstrate that the financier scores high on betweenness centrality despite having a low overall degree, emphasizing their hidden role as a bridge.
-7. **Ledger verify** — Verify the cryptographic chain. Then maliciously tamper with a ledger record in the SQLite database and re-verify to show failure and the resulting alert.
+1. **Network Explorer** — inspect the full relationship graph  
+2. **Potential Risk** — open the financier–courier finding (no direct calls; co-location + financial signals)  
+3. **Evidence** — review contribution breakdown and fused risk score  
+4. **Confirm Relationship** — promotes the edge and writes a ledger block  
+5. **Audit Ledger** — verify chain integrity  
+6. **Root Cause** — from a subject panel, trace origin from a seized-drugs FIR  
+7. **Centrality** — compare betweenness vs degree for intermediary roles  
 
-## Tech Stack
-
-| Component | Technology | Description |
-|-----------|------------|-------------|
-| **Database** | Neo4j | Graph database for network topology and GDS analysis |
-| **Audit Ledger** | SQLite | Immutable cryptographic ledger tracking data provenance |
-| **Backend** | Python / FastAPI | High-performance API routing and data orchestration |
-| **Frontend** | React / Cytoscape.js | Interactive UI and complex graph visualization |
-| **Graph Compute**| Neo4j GDS | Advanced algorithms (PageRank, Louvain, Centrality) |
-
-## API Reference
+## API
 
 | Method | Path | Description |
 |--------|------|-------------|
-| `GET` | `/graph` | Returns full graph for UI, optional `node_id` query for 2-hop neighborhood. |
-| `GET` | `/nodes/{node_id}` | Node details + timeline of evidence involving the node. |
-| `GET` | `/nodes/{node_id}/centrality` | Returns centrality scores (PageRank, Betweenness). |
-| `GET` | `/risk-queue` | Potential risk edges with score sorting. |
-| `POST` | `/risk-queue/{edge_id}/confirm` | Confirm risk (updates edge, writes to ledger). |
-| `POST` | `/risk-queue/{edge_id}/dismiss` | Dismiss risk (updates edge, writes to ledger). |
-| `GET` | `/communities` | Louvain community detection groups. |
-| `GET` | `/root-cause/{event_id}` | Backward traversal path from a specific event/FIR. |
-| `GET` | `/ledger` | Paginated blocks from the immutable audit ledger. |
-| `GET` | `/ledger/verify` | Validates hash chain integrity. |
-| `GET` | `/stats` | Macro statistics for the dashboard. |
+| `GET` | `/graph` | Full graph (or 2-hop neighborhood with `node_id`) |
+| `GET` | `/nodes/{node_id}` | Node detail + evidence timeline |
+| `GET` | `/nodes/{node_id}/centrality` | PageRank and betweenness |
+| `GET` | `/risk-queue` | Potential-risk edges by score |
+| `POST` | `/risk-queue/{edge_id}/confirm` | Confirm relationship |
+| `POST` | `/risk-queue/{edge_id}/dismiss` | Dismiss finding |
+| `GET` | `/communities` | Louvain communities |
+| `GET` | `/root-cause/{event_id}` | Backward traversal from an event/FIR |
+| `GET` | `/ledger` | Paginated audit blocks |
+| `GET` | `/ledger/verify` | Hash-chain integrity check |
+| `GET` | `/stats` | Aggregate counts |
 
-## Future Work
+## Project layout
 
-- **Real OCR / Scanned Document Pipeline**: Extend extractors to support raw unstructured image/PDF data.
-- **Multilingual / Cross-script Entity Resolution**: Expand RapidFuzz capabilities to cross-reference multiple dialects and scripts seamlessly.
-- **Live LLM Natural-Language-to-Cypher**: Let analysts query the graph directly via AI chat instead of structured UI only.
-- **Bayesian Log-Odds Calibration**: Replace heuristic weights with rigorously calibrated probabilities.
-- **RBAC System**: Fully implement Role-Based Access Control for evidence handling.
-- **Message Queue**: Implement Kafka/RabbitMQ for scaling ingestion pipelines horizontally.
+```text
+backend/     FastAPI app, fusion, extractors, ledger, graph client
+frontend/    React investigation UI
+data/        Synthetic inputs + embedded graph store + ledger DB
+scripts/     Data generation and pipeline runners
+```
+
+## Notes
+
+- `criminal-network-prototype-prompt.md` documents the original prototype scope used to build this SIH demo.
+- Neo4j credentials in the Docker example are for local demos only — change them before any shared deployment.

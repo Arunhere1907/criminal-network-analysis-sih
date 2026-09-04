@@ -1,8 +1,11 @@
 import axios from 'axios';
 
-const api = axios.create({ baseURL: 'http://localhost:8000' });
+const api = axios.create({
+  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:8000',
+});
 
-export const fetchGraph = (nodeId) => api.get('/graph', { params: nodeId ? { node_id: nodeId } : {} });
+export const fetchGraph = (nodeId) =>
+  api.get('/graph', { params: nodeId ? { node_id: nodeId } : {} });
 export const fetchNode = (nodeId) => api.get(`/nodes/${nodeId}`);
 export const fetchCentrality = (nodeId) => api.get(`/nodes/${nodeId}/centrality`);
 export const fetchRiskQueue = () => api.get('/risk-queue');

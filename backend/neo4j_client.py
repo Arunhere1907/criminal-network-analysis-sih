@@ -97,14 +97,37 @@ class Neo4jClient:
             """
             self.run_write(query, {"node_id": node_id, "properties": properties})
 
+    def _compute_degrees(self) -> Dict[str, int]:
+        degrees: Dict[str, int] = {nid: 0 for nid in self.nodes}
+        for edge in self.edges.values():
+            s, t = edge.get('source'), edge.get('target')
+            if s in degrees:
+                degrees[s] += 1
+            if t in degrees:
+                degrees[t] += 1
+        return degrees
+
     def get_all_nodes(self) -> List[Dict[str, Any]]:
         if self.is_embedded:
-            return [{"node": dict(props)} for props in self.nodes.values()]
+            degrees = self._compute_degrees()
+            result = []
+            for props in self.nodes.values():
+                node = dict(props)
+                node['degree'] = degrees.get(node.get('node_id'), 0)
+                result.append({"node": node})
+            return result
         return self.run_query("MATCH (p:Person) RETURN properties(p) as node")
 
     def get_node(self, node_id: str) -> Optional[Dict[str, Any]]:
         if self.is_embedded:
-            return dict(self.nodes[node_id]) if node_id in self.nodes else None
+            if node_id not in self.nodes:
+                return None
+            node = dict(self.nodes[node_id])
+            node['degree'] = sum(
+                1 for e in self.edges.values()
+                if e.get('source') == node_id or e.get('target') == node_id
+            )
+            return node
         res = self.run_query("MATCH (p:Person {node_id: $node_id}) RETURN properties(p) as node", {"node_id": node_id})
         return res[0]['node'] if res else None
 
@@ -363,7 +386,8 @@ class Neo4jClient:
                     node_props = self.nodes.get(nid, {})
                     members.append({
                         "node_id": nid,
-                        "names": node_props.get("names", [nid])
+                        "names": node_props.get("names", [nid]),
+                        "role": node_props.get("role", "contact"),
                     })
                 result.append({
                     "community_id": idx + 1,
