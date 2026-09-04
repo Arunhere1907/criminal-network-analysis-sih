@@ -1,0 +1,41 @@
+person_id,name,phone,address,city,bail_status,prior_cases,role
+P-0001,Rajesh Kumar,3321819600,"890, Chaudhary Circle, Muzaffarnagar 940265",Nagpur,absconding,FIR-2023-328;FIR-2023-854,peddler
+P-0002,Indrans Chokshi,1161559407,"H.No. 849, Mani Path, Coimbatore 341316",Mumbai,absconding,FIR-2025-132,peddler
+P-0003,Amani Ravi,2553419283,"48, Sani Ganj, Pimpri-Chinchwad-056413",Mumbai,on_bail,FIR-2022-674;FIR-2023-833;FIR-2025-325,peddler
+P-0004,Lakshit Sagar,6724238849,"H.No. 32, Koshy Circle, Nashik-226916",Pune,on_bail,FIR-2025-448,peddler
+P-0005,Deepak Verma,4801845146,"H.No. 482, Bera Circle, Guna-252880",Pune,none,FIR-2022-489,peddler
+P-0006,Ayesha Andra,5430391171,"78/248, Kakar, Panvel-465787",Mumbai,none,FIR-2024-926;FIR-2022-847;FIR-2025-649,supplier
+P-0007,Nishith Chowdhury,5098393010,"H.No. 518, Dewan Ganj, Kakinada-997376",Mumbai,none,FIR-2024-949,supplier
+P-0008,Divit Bava,6566701065,"387, Kakar Street, Alwar 317810",Nagpur,none,FIR-2023-821;FIR-2022-146;FIR-2023-891,supplier
+P-0009,Divij Shetty,2677360260,"46, Sahota Circle, Bhatpara-430980",Pune,none,,courier
+P-0010,Suresh Patil,7882081219,"19, Mann Ganj, Udupi 699854",Mumbai,none,,courier
+P-0011,Oorja Sehgal,3462475107,"38/42, Wadhwa Path, Sambalpur 427849",Pune,none,,courier
+P-0012,Nitya Taneja,4124118244,"487, Zachariah Road, Tiruchirappalli-400524",Nagpur,none,,courier
+P-0013,Seher Kant,6801128059,"045, Yogi Nagar, Bhagalpur-158692",Mumbai,none,,financier
+P-0014,Ishaan Sura,6025634216,"375, Tara Road, Rajahmundry 365414",Mumbai,none,,associate
+P-0015,Nayantara Kumar,8501429401,"56/981, Yogi Marg, Rohtak-608835",Nagpur,none,,courier
+P-0016,Darshit Salvi,9514846564,"62, Mane, Machilipatnam-443699",Nagpur,absconding,FIR-2023-267,contact
+P-0017,Anahita Kant,3872148951,"320, Das Nagar, Phagwara-769367",Pune,none,,contact
+P-0018,Nirvaan Borah,0163287083,"788, Dutt, Pudukkottai 872774",Nagpur,none,,contact
+P-0019,Navya Devi,7347143455,"362, Balay Ganj, Vellore 876036",Mumbai,none,,contact
+P-0020,Amit Sharma,0967054668,"467, Hayer Nagar, Machilipatnam-729806",Mumbai,none,,contact
+P-0021,Dharmajan Rout,2720465375,"H.No. 64, Keer Zila, Panvel 531003",Mumbai,none,,contact
+P-0022,Akarsh Rastogi,3271937452,"H.No. 19, Dugal Nagar, Sikar 193149",Pune,none,,contact
+P-0023,Yashvi Mandal,5865185067,"H.No. 72, Chakrabarti Marg, Tadepalligudem 769453",Mumbai,none,,contact
+P-0024,Ranbir Wadhwa,3799650752,"H.No. 45, Wable Road, Miryalaguda-831367",Nagpur,none,,contact
+P-0025,Prisha Khanna,7701436349,"85/68, Goda Path, Gopalpur 431351",Pune,none,,contact
+P-0026,Kartik Chokshi,7498941343,"H.No. 08, Devan Street, Meerut 271094",Pune,none,,contact
+P-0027,Anvi Kannan,2047116719,"941, Bhargava Ganj, Medininagar 867749",Nagpur,none,,contact
+P-0028,Ryan Mane,0913341232,"H.No. 679, Dhingra Chowk, Ahmednagar 471349",Pune,absconding,FIR-2024-864;FIR-2025-697;FIR-2025-470,contact
+P-0029,Aarna Bhandari,3242102499,"H.No. 746, Krishna Road, Bahraich 906594",Mumbai,none,,contact
+P-0030,Divij Contractor,9904902787,"67/17, Jayaraman Path, Pondicherry 256746",Mumbai,none,,contact
+P-0031,Amani Basu,4516808760,"77/03, Maharaj Road, Tumkur-710932",Mumbai,none,,contact
+P-0032,Ishita Amble,6131712748,"73, Majumdar Chowk, Yamunanagar 982146",Mumbai,on_bail,FIR-2025-710;FIR-2022-494;FIR-2025-710,contact
+P-0033,Vedika Kulkarni,0449972787,"86/75, Sarkar Ganj, Aurangabad 360576",Pune,none,,contact
+P-0034,Nitara Sule,2702895171,"26/217, Gara Road, Jodhpur-865780",Nagpur,none,,contact
+P-0035,Miraan Raval,4316117240,"H.No. 455, Bora Marg, Bettiah 922219",Mumbai,none,,contact
+P-0036,Miraya Sanghvi,7923747407,"H.No. 759, Reddy Road, Chandrapur 436713",Mumbai,none,,contact
+P-0037,Kaira Gola,4406409097,"53/39, Sane Road, Jalandhar 470952",Nagpur,none,,contact
+P-0038,Ritvik Gade,6232858842,"H.No. 51, Barad Chowk, Kamarhati 851604",Nagpur,none,,financier
+P-0039,Amani Gour,4965137098,"17/461, Bajaj Street, Avadi 113826",Pune,none,,associate
+P-0040,Tushar Sampath,8692617964,"773, Bawa Path, Tinsukia 064317",Pune,absconding,FIR-2024-612;FIR-2023-619;FIR-2022-991,contact

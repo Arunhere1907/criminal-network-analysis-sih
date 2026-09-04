@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.venv/
+venv/
+env/
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary / test data
+data/test_ledger.db
+*.log
