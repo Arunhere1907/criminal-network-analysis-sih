@@ -241,13 +241,7 @@ def get_ledger(page: int = Query(1, ge=1), per_page: int = Query(50, ge=1, le=10
     try:
         blocks = app.state.ledger.get_all(page=page, per_page=per_page)
         
-        import sqlite3
-        with sqlite3.connect(app.state.ledger.db_path) as conn:
-            cursor = conn.cursor()
-            cursor.execute("SELECT COUNT(*) FROM ledger")
-            total = cursor.fetchone()[0]
-        
-        return {"blocks": blocks, "total": total, "page": page}
+        return {"blocks": blocks, "total": app.state.ledger.count(), "page": page}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
