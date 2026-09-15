@@ -2,7 +2,9 @@ import sqlite3
 import hashlib
 import json
 import os
+import tempfile
 from datetime import datetime
+from pathlib import Path
 from typing import Optional, Dict, Any
 
 class AuditLedger:
@@ -17,16 +19,27 @@ class AuditLedger:
         if not db_path or db_path == ':memory:':
             return ':memory:'
 
-        path = os.fspath(db_path)
+        path = Path(os.fspath(db_path))
+        if not path.is_absolute():
+            path = Path(__file__).parent / path
+
         try:
-            directory = os.path.dirname(os.path.abspath(path))
-            if directory:
-                os.makedirs(directory, exist_ok=True)
+            path.parent.mkdir(parents=True, exist_ok=True)
             with sqlite3.connect(path) as conn:
-                conn.execute('SELECT 1')
-            return path
+                conn.execute('CREATE TABLE IF NOT EXISTS __write_test (id INTEGER)')
+                conn.execute('DROP TABLE __write_test')
+                conn.commit()
+            return os.fspath(path)
         except Exception:
-            return ':memory:'
+            try:
+                temporary_path = tempfile.NamedTemporaryFile(
+                    prefix='criminal-network-ledger-',
+                    suffix='.db',
+                    delete=False,
+                ).name
+                return temporary_path
+            except Exception:
+                return ':memory:'
 
     def _connect(self):
         if self.db_path == ':memory:':

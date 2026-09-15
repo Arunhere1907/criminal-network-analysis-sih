@@ -1,15 +1,20 @@
-import sys
-import os
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from backend.neo4j_client import Neo4jClient
-from backend.ledger import AuditLedger
+
 try:
-    from backend.models import *
+    from .neo4j_client import Neo4jClient
+    from .ledger import AuditLedger
 except ImportError:
-    pass
+    from neo4j_client import Neo4jClient
+    from ledger import AuditLedger
+
+try:
+    from .models import *
+except ImportError:
+    try:
+        from models import *
+    except ImportError:
+        pass
 
 from contextlib import asynccontextmanager
 from typing import Optional, List, Dict, Any
