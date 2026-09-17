@@ -1,7 +1,8 @@
 networkx>=3.0
 fastapi==0.104.1
 uvicorn==0.24.0
-neo4j==5.14.1
+networkx==3.3
 rapidfuzz==3.5.2
 Faker==20.1.0
 pydantic==2.5.2
+pydantic-settings==2.2.1

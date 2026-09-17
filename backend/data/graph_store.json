@@ -1,0 +1,4403 @@
+{
+  "nodes": {
+    "P-0001": {
+      "node_id": "P-0001",
+      "names": [
+        "Rajesh Kumar"
+      ],
+      "phone": "3321819600",
+      "addresses": [
+        "890, Chaudhary Circle, Muzaffarnagar 940265"
+      ],
+      "city": "Nagpur",
+      "bail_status": "absconding",
+      "prior_cases": [
+        "FIR-2023-328",
+        "FIR-2023-854"
+      ],
+      "role": "peddler",
+      "network_score": null
+    },
+    "P-0002": {
+      "node_id": "P-0002",
+      "names": [
+        "Indrans Chokshi"
+      ],
+      "phone": "1161559407",
+      "addresses": [
+        "H.No. 849, Mani Path, Coimbatore 341316"
+      ],
+      "city": "Mumbai",
+      "bail_status": "absconding",
+      "prior_cases": [
+        "FIR-2025-132"
+      ],
+      "role": "peddler",
+      "network_score": null
+    },
+    "P-0003": {
+      "node_id": "P-0003",
+      "names": [
+        "Amani Ravi"
+      ],
+      "phone": "2553419283",
+      "addresses": [
+        "48, Sani Ganj, Pimpri-Chinchwad-056413"
+      ],
+      "city": "Mumbai",
+      "bail_status": "on_bail",
+      "prior_cases": [
+        "FIR-2022-674",
+        "FIR-2023-833",
+        "FIR-2025-325"
+      ],
+      "role": "peddler",
+      "network_score": null
+    },
+    "P-0004": {
+      "node_id": "P-0004",
+      "names": [
+        "Lakshit Sagar"
+      ],
+      "phone": "6724238849",
+      "addresses": [
+        "H.No. 32, Koshy Circle, Nashik-226916"
+      ],
+      "city": "Pune",
+      "bail_status": "on_bail",
+      "prior_cases": [
+        "FIR-2025-448"
+      ],
+      "role": "peddler",
+      "network_score": null
+    },
+    "P-0005": {
+      "node_id": "P-0005",
+      "names": [
+        "Deepak Verma"
+      ],
+      "phone": "4801845146",
+      "addresses": [
+        "H.No. 482, Bera Circle, Guna-252880"
+      ],
+      "city": "Pune",
+      "bail_status": "none",
+      "prior_cases": [
+        "FIR-2022-489"
+      ],
+      "role": "peddler",
+      "network_score": null
+    },
+    "P-0006": {
+      "node_id": "P-0006",
+      "names": [
+        "Ayesha Andra"
+      ],
+      "phone": "5430391171",
+      "addresses": [
+        "78/248, Kakar, Panvel-465787"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [
+        "FIR-2024-926",
+        "FIR-2022-847",
+        "FIR-2025-649"
+      ],
+      "role": "supplier",
+      "network_score": null
+    },
+    "P-0007": {
+      "node_id": "P-0007",
+      "names": [
+        "Nishith Chowdhury"
+      ],
+      "phone": "5098393010",
+      "addresses": [
+        "H.No. 518, Dewan Ganj, Kakinada-997376"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [
+        "FIR-2024-949"
+      ],
+      "role": "supplier",
+      "network_score": null
+    },
+    "P-0008": {
+      "node_id": "P-0008",
+      "names": [
+        "Divit Bava"
+      ],
+      "phone": "6566701065",
+      "addresses": [
+        "387, Kakar Street, Alwar 317810"
+      ],
+      "city": "Nagpur",
+      "bail_status": "none",
+      "prior_cases": [
+        "FIR-2023-821",
+        "FIR-2022-146",
+        "FIR-2023-891"
+      ],
+      "role": "supplier",
+      "network_score": null
+    },
+    "P-0009": {
+      "node_id": "P-0009",
+      "names": [
+        "Divij Shetty"
+      ],
+      "phone": "2677360260",
+      "addresses": [
+        "46, Sahota Circle, Bhatpara-430980"
+      ],
+      "city": "Pune",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "courier",
+      "network_score": null
+    },
+    "P-0010": {
+      "node_id": "P-0010",
+      "names": [
+        "Suresh Patil"
+      ],
+      "phone": "7882081219",
+      "addresses": [
+        "19, Mann Ganj, Udupi 699854"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "courier",
+      "network_score": null
+    },
+    "P-0011": {
+      "node_id": "P-0011",
+      "names": [
+        "Oorja Sehgal"
+      ],
+      "phone": "3462475107",
+      "addresses": [
+        "38/42, Wadhwa Path, Sambalpur 427849"
+      ],
+      "city": "Pune",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "courier",
+      "network_score": null
+    },
+    "P-0012": {
+      "node_id": "P-0012",
+      "names": [
+        "Nitya Taneja"
+      ],
+      "phone": "4124118244",
+      "addresses": [
+        "487, Zachariah Road, Tiruchirappalli-400524"
+      ],
+      "city": "Nagpur",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "courier",
+      "network_score": null
+    },
+    "P-0013": {
+      "node_id": "P-0013",
+      "names": [
+        "Seher Kant"
+      ],
+      "phone": "6801128059",
+      "addresses": [
+        "045, Yogi Nagar, Bhagalpur-158692"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "financier",
+      "network_score": null
+    },
+    "P-0014": {
+      "node_id": "P-0014",
+      "names": [
+        "Ishaan Sura"
+      ],
+      "phone": "6025634216",
+      "addresses": [
+        "375, Tara Road, Rajahmundry 365414"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "associate",
+      "network_score": null
+    },
+    "P-0015": {
+      "node_id": "P-0015",
+      "names": [
+        "Nayantara Kumar"
+      ],
+      "phone": "8501429401",
+      "addresses": [
+        "56/981, Yogi Marg, Rohtak-608835"
+      ],
+      "city": "Nagpur",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "courier",
+      "network_score": null
+    },
+    "P-0016": {
+      "node_id": "P-0016",
+      "names": [
+        "Darshit Salvi"
+      ],
+      "phone": "9514846564",
+      "addresses": [
+        "62, Mane, Machilipatnam-443699"
+      ],
+      "city": "Nagpur",
+      "bail_status": "absconding",
+      "prior_cases": [
+        "FIR-2023-267"
+      ],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0017": {
+      "node_id": "P-0017",
+      "names": [
+        "Anahita Kant"
+      ],
+      "phone": "3872148951",
+      "addresses": [
+        "320, Das Nagar, Phagwara-769367"
+      ],
+      "city": "Pune",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0018": {
+      "node_id": "P-0018",
+      "names": [
+        "Nirvaan Borah"
+      ],
+      "phone": "0163287083",
+      "addresses": [
+        "788, Dutt, Pudukkottai 872774"
+      ],
+      "city": "Nagpur",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0019": {
+      "node_id": "P-0019",
+      "names": [
+        "Navya Devi"
+      ],
+      "phone": "7347143455",
+      "addresses": [
+        "362, Balay Ganj, Vellore 876036"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0020": {
+      "node_id": "P-0020",
+      "names": [
+        "Amit Sharma"
+      ],
+      "phone": "0967054668",
+      "addresses": [
+        "467, Hayer Nagar, Machilipatnam-729806"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0021": {
+      "node_id": "P-0021",
+      "names": [
+        "Dharmajan Rout"
+      ],
+      "phone": "2720465375",
+      "addresses": [
+        "H.No. 64, Keer Zila, Panvel 531003"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0022": {
+      "node_id": "P-0022",
+      "names": [
+        "Akarsh Rastogi"
+      ],
+      "phone": "3271937452",
+      "addresses": [
+        "H.No. 19, Dugal Nagar, Sikar 193149"
+      ],
+      "city": "Pune",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0023": {
+      "node_id": "P-0023",
+      "names": [
+        "Yashvi Mandal"
+      ],
+      "phone": "5865185067",
+      "addresses": [
+        "H.No. 72, Chakrabarti Marg, Tadepalligudem 769453"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0024": {
+      "node_id": "P-0024",
+      "names": [
+        "Ranbir Wadhwa"
+      ],
+      "phone": "3799650752",
+      "addresses": [
+        "H.No. 45, Wable Road, Miryalaguda-831367"
+      ],
+      "city": "Nagpur",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0025": {
+      "node_id": "P-0025",
+      "names": [
+        "Prisha Khanna"
+      ],
+      "phone": "7701436349",
+      "addresses": [
+        "85/68, Goda Path, Gopalpur 431351"
+      ],
+      "city": "Pune",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0026": {
+      "node_id": "P-0026",
+      "names": [
+        "Kartik Chokshi"
+      ],
+      "phone": "7498941343",
+      "addresses": [
+        "H.No. 08, Devan Street, Meerut 271094"
+      ],
+      "city": "Pune",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0027": {
+      "node_id": "P-0027",
+      "names": [
+        "Anvi Kannan"
+      ],
+      "phone": "2047116719",
+      "addresses": [
+        "941, Bhargava Ganj, Medininagar 867749"
+      ],
+      "city": "Nagpur",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0028": {
+      "node_id": "P-0028",
+      "names": [
+        "Ryan Mane"
+      ],
+      "phone": "0913341232",
+      "addresses": [
+        "H.No. 679, Dhingra Chowk, Ahmednagar 471349"
+      ],
+      "city": "Pune",
+      "bail_status": "absconding",
+      "prior_cases": [
+        "FIR-2024-864",
+        "FIR-2025-697",
+        "FIR-2025-470"
+      ],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0029": {
+      "node_id": "P-0029",
+      "names": [
+        "Aarna Bhandari"
+      ],
+      "phone": "3242102499",
+      "addresses": [
+        "H.No. 746, Krishna Road, Bahraich 906594"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0030": {
+      "node_id": "P-0030",
+      "names": [
+        "Divij Contractor"
+      ],
+      "phone": "9904902787",
+      "addresses": [
+        "67/17, Jayaraman Path, Pondicherry 256746"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0031": {
+      "node_id": "P-0031",
+      "names": [
+        "Amani Basu"
+      ],
+      "phone": "4516808760",
+      "addresses": [
+        "77/03, Maharaj Road, Tumkur-710932"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0032": {
+      "node_id": "P-0032",
+      "names": [
+        "Ishita Amble"
+      ],
+      "phone": "6131712748",
+      "addresses": [
+        "73, Majumdar Chowk, Yamunanagar 982146"
+      ],
+      "city": "Mumbai",
+      "bail_status": "on_bail",
+      "prior_cases": [
+        "FIR-2025-710",
+        "FIR-2022-494",
+        "FIR-2025-710"
+      ],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0033": {
+      "node_id": "P-0033",
+      "names": [
+        "Vedika Kulkarni"
+      ],
+      "phone": "0449972787",
+      "addresses": [
+        "86/75, Sarkar Ganj, Aurangabad 360576"
+      ],
+      "city": "Pune",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0034": {
+      "node_id": "P-0034",
+      "names": [
+        "Nitara Sule"
+      ],
+      "phone": "2702895171",
+      "addresses": [
+        "26/217, Gara Road, Jodhpur-865780"
+      ],
+      "city": "Nagpur",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0035": {
+      "node_id": "P-0035",
+      "names": [
+        "Miraan Raval"
+      ],
+      "phone": "4316117240",
+      "addresses": [
+        "H.No. 455, Bora Marg, Bettiah 922219"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0036": {
+      "node_id": "P-0036",
+      "names": [
+        "Miraya Sanghvi"
+      ],
+      "phone": "7923747407",
+      "addresses": [
+        "H.No. 759, Reddy Road, Chandrapur 436713"
+      ],
+      "city": "Mumbai",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0037": {
+      "node_id": "P-0037",
+      "names": [
+        "Kaira Gola"
+      ],
+      "phone": "4406409097",
+      "addresses": [
+        "53/39, Sane Road, Jalandhar 470952"
+      ],
+      "city": "Nagpur",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "contact",
+      "network_score": null
+    },
+    "P-0038": {
+      "node_id": "P-0038",
+      "names": [
+        "Ritvik Gade"
+      ],
+      "phone": "6232858842",
+      "addresses": [
+        "H.No. 51, Barad Chowk, Kamarhati 851604"
+      ],
+      "city": "Nagpur",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "financier",
+      "network_score": null
+    },
+    "P-0039": {
+      "node_id": "P-0039",
+      "names": [
+        "Amani Gour"
+      ],
+      "phone": "4965137098",
+      "addresses": [
+        "17/461, Bajaj Street, Avadi 113826"
+      ],
+      "city": "Pune",
+      "bail_status": "none",
+      "prior_cases": [],
+      "role": "associate",
+      "network_score": null
+    },
+    "P-0040": {
+      "node_id": "P-0040",
+      "names": [
+        "Tushar Sampath"
+      ],
+      "phone": "8692617964",
+      "addresses": [
+        "773, Bawa Path, Tinsukia 064317"
+      ],
+      "city": "Pune",
+      "bail_status": "absconding",
+      "prior_cases": [
+        "FIR-2024-612",
+        "FIR-2023-619",
+        "FIR-2022-991"
+      ],
+      "role": "contact",
+      "network_score": null
+    }
+  },
+  "edges": {
+    "E-A429AFD8": {
+      "edge_id": "E-A429AFD8",
+      "source": "P-0015",
+      "target": "P-0004",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0000",
+          "timestamp": "2025-10-04T19:18:34",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-D4391246": {
+      "edge_id": "E-D4391246",
+      "source": "P-0009",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0001",
+          "timestamp": "2025-06-07T08:43:05",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-7134D9FB": {
+      "edge_id": "E-7134D9FB",
+      "source": "P-0018",
+      "target": "P-0001",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0002",
+          "timestamp": "2025-09-30T04:34:43",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-BFC893E3": {
+      "edge_id": "E-BFC893E3",
+      "source": "P-0021",
+      "target": "P-0024",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0003",
+          "timestamp": "2025-04-19T19:38:06",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-AFC17D33": {
+      "edge_id": "E-AFC17D33",
+      "source": "P-0003",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0004",
+          "timestamp": "2025-05-07T08:10:51",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-3D3BC905": {
+      "edge_id": "E-3D3BC905",
+      "source": "P-0010",
+      "target": "P-0004",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0005",
+          "timestamp": "2025-01-31T08:20:07",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-2307663D": {
+      "edge_id": "E-2307663D",
+      "source": "P-0002",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0006",
+          "timestamp": "2025-03-09T20:47:27",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-1006F0D9": {
+      "edge_id": "E-1006F0D9",
+      "source": "P-0038",
+      "target": "P-0039",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0007",
+          "timestamp": "2025-02-19T23:59:34",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-AD655226": {
+      "edge_id": "E-AD655226",
+      "source": "P-0009",
+      "target": "P-0002",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0008",
+          "timestamp": "2025-02-25T09:03:11",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-EF992153": {
+      "edge_id": "E-EF992153",
+      "source": "P-0012",
+      "target": "P-0003",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0009",
+          "timestamp": "2025-02-08T16:08:02",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-AF999355": {
+      "edge_id": "E-AF999355",
+      "source": "P-0015",
+      "target": "P-0001",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0010",
+          "timestamp": "2025-05-02T06:03:18",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-C6C3D6EF": {
+      "edge_id": "E-C6C3D6EF",
+      "source": "P-0004",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0011",
+          "timestamp": "2025-07-19T09:39:20",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-A2EA3545": {
+      "edge_id": "E-A2EA3545",
+      "source": "P-0015",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0012",
+          "timestamp": "2025-01-30T21:05:14",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-A5CBAF0F": {
+      "edge_id": "E-A5CBAF0F",
+      "source": "P-0001",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0013",
+          "timestamp": "2025-09-29T05:43:55",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-56B9D3CC": {
+      "edge_id": "E-56B9D3CC",
+      "source": "P-0018",
+      "target": "P-0035",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0014",
+          "timestamp": "2025-07-26T04:21:53",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-1B75400B": {
+      "edge_id": "E-1B75400B",
+      "source": "P-0015",
+      "target": "P-0002",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0015",
+          "timestamp": "2025-09-25T11:31:07",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-E3D8F5B9": {
+      "edge_id": "E-E3D8F5B9",
+      "source": "P-0038",
+      "target": "P-0039",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0016",
+          "timestamp": "2025-12-10T23:30:07",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-064F1E04": {
+      "edge_id": "E-064F1E04",
+      "source": "P-0018",
+      "target": "P-0016",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0017",
+          "timestamp": "2025-02-21T02:40:02",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-F9E5F503": {
+      "edge_id": "E-F9E5F503",
+      "source": "P-0003",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0018",
+          "timestamp": "2025-03-22T15:57:13",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-CF65B68C": {
+      "edge_id": "E-CF65B68C",
+      "source": "P-0015",
+      "target": "P-0001",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0019",
+          "timestamp": "2025-12-06T03:46:17",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-EF658A50": {
+      "edge_id": "E-EF658A50",
+      "source": "P-0033",
+      "target": "P-0020",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0020",
+          "timestamp": "2025-06-25T07:24:45",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-6088091D": {
+      "edge_id": "E-6088091D",
+      "source": "P-0001",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0021",
+          "timestamp": "2025-01-23T00:07:44",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-FF8F2804": {
+      "edge_id": "E-FF8F2804",
+      "source": "P-0011",
+      "target": "P-0003",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0022",
+          "timestamp": "2025-08-07T20:25:19",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-BE58A7B8": {
+      "edge_id": "E-BE58A7B8",
+      "source": "P-0040",
+      "target": "P-0020",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0023",
+          "timestamp": "2025-10-26T20:07:00",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-F5E4204B": {
+      "edge_id": "E-F5E4204B",
+      "source": "P-0003",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0024",
+          "timestamp": "2025-05-08T03:44:33",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-A6EFFA82": {
+      "edge_id": "E-A6EFFA82",
+      "source": "P-0029",
+      "target": "P-0035",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0025",
+          "timestamp": "2025-05-02T05:54:59",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-F46232B6": {
+      "edge_id": "E-F46232B6",
+      "source": "P-0003",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0026",
+          "timestamp": "2025-05-08T09:42:50",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-65D8055B": {
+      "edge_id": "E-65D8055B",
+      "source": "P-0001",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0027",
+          "timestamp": "2025-08-24T12:43:50",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-94E76F83": {
+      "edge_id": "E-94E76F83",
+      "source": "P-0002",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0028",
+          "timestamp": "2025-05-23T12:47:05",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-F5B0E713": {
+      "edge_id": "E-F5B0E713",
+      "source": "P-0033",
+      "target": "P-0026",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0029",
+          "timestamp": "2025-05-14T06:30:05",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-FC7BFAF3": {
+      "edge_id": "E-FC7BFAF3",
+      "source": "P-0011",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0030",
+          "timestamp": "2025-03-01T14:01:28",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-C90B0BA7": {
+      "edge_id": "E-C90B0BA7",
+      "source": "P-0004",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0031",
+          "timestamp": "2025-12-18T07:10:25",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-0B356DDE": {
+      "edge_id": "E-0B356DDE",
+      "source": "P-0026",
+      "target": "P-0035",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0032",
+          "timestamp": "2025-06-03T18:27:49",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-4E792AA0": {
+      "edge_id": "E-4E792AA0",
+      "source": "P-0003",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0033",
+          "timestamp": "2025-07-14T06:20:10",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-6FE4E742": {
+      "edge_id": "E-6FE4E742",
+      "source": "P-0009",
+      "target": "P-0005",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0034",
+          "timestamp": "2025-10-24T22:05:16",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-7E0A0CCB": {
+      "edge_id": "E-7E0A0CCB",
+      "source": "P-0010",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0035",
+          "timestamp": "2025-03-28T23:59:16",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-2A1BECF9": {
+      "edge_id": "E-2A1BECF9",
+      "source": "P-0015",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0036",
+          "timestamp": "2025-05-01T11:18:07",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-8833830E": {
+      "edge_id": "E-8833830E",
+      "source": "P-0002",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0037",
+          "timestamp": "2025-08-22T15:05:21",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-89209C32": {
+      "edge_id": "E-89209C32",
+      "source": "P-0012",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0038",
+          "timestamp": "2025-01-03T03:52:50",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-E2FDF500": {
+      "edge_id": "E-E2FDF500",
+      "source": "P-0040",
+      "target": "P-0032",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0039",
+          "timestamp": "2025-03-04T16:37:09",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-293167E9": {
+      "edge_id": "E-293167E9",
+      "source": "P-0015",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0040",
+          "timestamp": "2025-11-10T18:22:42",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-B560103D": {
+      "edge_id": "E-B560103D",
+      "source": "P-0031",
+      "target": "P-0030",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0041",
+          "timestamp": "2025-11-23T10:05:47",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-FDE043D8": {
+      "edge_id": "E-FDE043D8",
+      "source": "P-0004",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0042",
+          "timestamp": "2025-06-21T11:38:24",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-947D53BB": {
+      "edge_id": "E-947D53BB",
+      "source": "P-0004",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0043",
+          "timestamp": "2025-08-01T14:50:24",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-CB12A4D7": {
+      "edge_id": "E-CB12A4D7",
+      "source": "P-0010",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0044",
+          "timestamp": "2025-12-23T00:42:40",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-5859B5F8": {
+      "edge_id": "E-5859B5F8",
+      "source": "P-0003",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0045",
+          "timestamp": "2025-08-03T19:35:45",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-12E598EF": {
+      "edge_id": "E-12E598EF",
+      "source": "P-0011",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0046",
+          "timestamp": "2025-12-09T14:43:14",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-CF6069D8": {
+      "edge_id": "E-CF6069D8",
+      "source": "P-0033",
+      "target": "P-0016",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0047",
+          "timestamp": "2025-12-06T00:59:12",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-D429FC36": {
+      "edge_id": "E-D429FC36",
+      "source": "P-0004",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0048",
+          "timestamp": "2025-04-19T16:33:18",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-0907058B": {
+      "edge_id": "E-0907058B",
+      "source": "P-0004",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0049",
+          "timestamp": "2025-10-04T01:53:46",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-C1AD79D0": {
+      "edge_id": "E-C1AD79D0",
+      "source": "P-0001",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0050",
+          "timestamp": "2025-01-11T22:37:19",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-46C64736": {
+      "edge_id": "E-46C64736",
+      "source": "P-0009",
+      "target": "P-0004",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0051",
+          "timestamp": "2025-07-08T06:06:32",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-C0B67B39": {
+      "edge_id": "E-C0B67B39",
+      "source": "P-0019",
+      "target": "P-0034",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0052",
+          "timestamp": "2025-12-13T13:39:52",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-DC56CA03": {
+      "edge_id": "E-DC56CA03",
+      "source": "P-0002",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0053",
+          "timestamp": "2025-12-17T21:51:37",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-2717FF64": {
+      "edge_id": "E-2717FF64",
+      "source": "P-0004",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0054",
+          "timestamp": "2025-06-24T00:27:38",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-1A04C563": {
+      "edge_id": "E-1A04C563",
+      "source": "P-0011",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0055",
+          "timestamp": "2025-09-25T23:40:56",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-CF31E258": {
+      "edge_id": "E-CF31E258",
+      "source": "P-0038",
+      "target": "P-0039",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0056",
+          "timestamp": "2025-10-31T09:46:19",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-D4C14EF2": {
+      "edge_id": "E-D4C14EF2",
+      "source": "P-0004",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0057",
+          "timestamp": "2025-12-09T13:47:54",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-40FA3E2A": {
+      "edge_id": "E-40FA3E2A",
+      "source": "P-0021",
+      "target": "P-0031",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0058",
+          "timestamp": "2025-06-24T10:10:55",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-5C12509E": {
+      "edge_id": "E-5C12509E",
+      "source": "P-0010",
+      "target": "P-0002",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0059",
+          "timestamp": "2025-10-12T08:44:59",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-24F20390": {
+      "edge_id": "E-24F20390",
+      "source": "P-0009",
+      "target": "P-0002",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0060",
+          "timestamp": "2025-05-05T11:08:55",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-0A2E2C5F": {
+      "edge_id": "E-0A2E2C5F",
+      "source": "P-0012",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0061",
+          "timestamp": "2025-06-06T09:09:11",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-B4A8A95A": {
+      "edge_id": "E-B4A8A95A",
+      "source": "P-0001",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0062",
+          "timestamp": "2025-04-05T06:58:25",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-AB6198EF": {
+      "edge_id": "E-AB6198EF",
+      "source": "P-0005",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0063",
+          "timestamp": "2025-04-10T10:47:09",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-88D2E6E4": {
+      "edge_id": "E-88D2E6E4",
+      "source": "P-0005",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0064",
+          "timestamp": "2025-10-11T10:38:10",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-E75161B6": {
+      "edge_id": "E-E75161B6",
+      "source": "P-0001",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0065",
+          "timestamp": "2025-06-24T06:42:44",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-578AACD5": {
+      "edge_id": "E-578AACD5",
+      "source": "P-0001",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0066",
+          "timestamp": "2025-12-18T01:57:06",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-0DF036D8": {
+      "edge_id": "E-0DF036D8",
+      "source": "P-0018",
+      "target": "P-0023",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0067",
+          "timestamp": "2025-11-07T21:42:15",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-3B100FD2": {
+      "edge_id": "E-3B100FD2",
+      "source": "P-0004",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0068",
+          "timestamp": "2025-06-06T20:42:11",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-2DF1DCAB": {
+      "edge_id": "E-2DF1DCAB",
+      "source": "P-0002",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0069",
+          "timestamp": "2025-03-22T08:43:59",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-EE9DEFBC": {
+      "edge_id": "E-EE9DEFBC",
+      "source": "P-0004",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0070",
+          "timestamp": "2025-01-17T08:25:40",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-1766C132": {
+      "edge_id": "E-1766C132",
+      "source": "P-0038",
+      "target": "P-0039",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0071",
+          "timestamp": "2025-05-16T22:45:27",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-545A4D72": {
+      "edge_id": "E-545A4D72",
+      "source": "P-0010",
+      "target": "P-0005",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0072",
+          "timestamp": "2025-03-26T11:11:59",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-D2EC2AF6": {
+      "edge_id": "E-D2EC2AF6",
+      "source": "P-0003",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0073",
+          "timestamp": "2025-10-04T17:58:42",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-C977E01A": {
+      "edge_id": "E-C977E01A",
+      "source": "P-0004",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0074",
+          "timestamp": "2025-02-16T08:20:05",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-C79D7846": {
+      "edge_id": "E-C79D7846",
+      "source": "P-0037",
+      "target": "P-0004",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0075",
+          "timestamp": "2025-03-31T17:07:49",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-558F794B": {
+      "edge_id": "E-558F794B",
+      "source": "P-0021",
+      "target": "P-0034",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0076",
+          "timestamp": "2025-02-16T17:06:45",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-2FCE5965": {
+      "edge_id": "E-2FCE5965",
+      "source": "P-0001",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0077",
+          "timestamp": "2025-05-28T14:34:48",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-4BE38885": {
+      "edge_id": "E-4BE38885",
+      "source": "P-0003",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0078",
+          "timestamp": "2025-09-21T00:02:30",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-FCBEF6A7": {
+      "edge_id": "E-FCBEF6A7",
+      "source": "P-0005",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0079",
+          "timestamp": "2025-08-15T01:52:44",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-E50A4891": {
+      "edge_id": "E-E50A4891",
+      "source": "P-0003",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0080",
+          "timestamp": "2025-01-15T22:56:18",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-6618D253": {
+      "edge_id": "E-6618D253",
+      "source": "P-0001",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0081",
+          "timestamp": "2025-02-28T16:48:02",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-EC5A671E": {
+      "edge_id": "E-EC5A671E",
+      "source": "P-0011",
+      "target": "P-0005",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0082",
+          "timestamp": "2025-08-30T08:52:26",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-8F059A32": {
+      "edge_id": "E-8F059A32",
+      "source": "P-0005",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0083",
+          "timestamp": "2025-02-05T10:03:28",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-8E7A1586": {
+      "edge_id": "E-8E7A1586",
+      "source": "P-0001",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0084",
+          "timestamp": "2025-10-24T17:49:38",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-287D0901": {
+      "edge_id": "E-287D0901",
+      "source": "P-0011",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0085",
+          "timestamp": "2025-04-07T08:41:40",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-5C8F1F86": {
+      "edge_id": "E-5C8F1F86",
+      "source": "P-0029",
+      "target": "P-0017",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0086",
+          "timestamp": "2025-07-15T14:03:24",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-689ADE1F": {
+      "edge_id": "E-689ADE1F",
+      "source": "P-0005",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0087",
+          "timestamp": "2025-08-14T03:37:49",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-48813150": {
+      "edge_id": "E-48813150",
+      "source": "P-0038",
+      "target": "P-0039",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0088",
+          "timestamp": "2025-03-21T02:43:27",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-217248D4": {
+      "edge_id": "E-217248D4",
+      "source": "P-0012",
+      "target": "P-0002",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0089",
+          "timestamp": "2025-10-01T13:50:08",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-2CBE1FB8": {
+      "edge_id": "E-2CBE1FB8",
+      "source": "P-0031",
+      "target": "P-0005",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0090",
+          "timestamp": "2025-05-01T22:58:47",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-CD456D0E": {
+      "edge_id": "E-CD456D0E",
+      "source": "P-0001",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0091",
+          "timestamp": "2025-03-27T10:54:11",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-8E77BF44": {
+      "edge_id": "E-8E77BF44",
+      "source": "P-0038",
+      "target": "P-0039",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0092",
+          "timestamp": "2025-03-16T08:53:27",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-A68D16BE": {
+      "edge_id": "E-A68D16BE",
+      "source": "P-0010",
+      "target": "P-0003",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0093",
+          "timestamp": "2025-07-15T22:33:46",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-2F4BD0FC": {
+      "edge_id": "E-2F4BD0FC",
+      "source": "P-0004",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0094",
+          "timestamp": "2025-01-05T16:56:21",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-4F2C4112": {
+      "edge_id": "E-4F2C4112",
+      "source": "P-0004",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0095",
+          "timestamp": "2025-08-06T09:06:20",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-F3D889CF": {
+      "edge_id": "E-F3D889CF",
+      "source": "P-0031",
+      "target": "P-0019",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0096",
+          "timestamp": "2025-10-22T10:46:20",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-16897B82": {
+      "edge_id": "E-16897B82",
+      "source": "P-0001",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0097",
+          "timestamp": "2025-01-26T22:04:42",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-9F496CA1": {
+      "edge_id": "E-9F496CA1",
+      "source": "P-0011",
+      "target": "P-0004",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0098",
+          "timestamp": "2025-12-14T04:58:47",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-CDA54BE0": {
+      "edge_id": "E-CDA54BE0",
+      "source": "P-0004",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0099",
+          "timestamp": "2025-02-16T10:44:40",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-31195FB3": {
+      "edge_id": "E-31195FB3",
+      "source": "P-0002",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0100",
+          "timestamp": "2025-09-14T09:55:20",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-C3FA5878": {
+      "edge_id": "E-C3FA5878",
+      "source": "P-0025",
+      "target": "P-0001",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0101",
+          "timestamp": "2025-08-28T02:44:29",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-567CA8E3": {
+      "edge_id": "E-567CA8E3",
+      "source": "P-0037",
+      "target": "P-0028",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0102",
+          "timestamp": "2025-07-07T03:17:16",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-859E2D4D": {
+      "edge_id": "E-859E2D4D",
+      "source": "P-0012",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0103",
+          "timestamp": "2025-10-27T13:52:21",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-6B472A0C": {
+      "edge_id": "E-6B472A0C",
+      "source": "P-0001",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0104",
+          "timestamp": "2025-11-09T08:03:35",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-B77B98F1": {
+      "edge_id": "E-B77B98F1",
+      "source": "P-0025",
+      "target": "P-0036",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0105",
+          "timestamp": "2025-01-20T11:04:53",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-3151128D": {
+      "edge_id": "E-3151128D",
+      "source": "P-0005",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0106",
+          "timestamp": "2025-12-23T19:40:04",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-72B8086D": {
+      "edge_id": "E-72B8086D",
+      "source": "P-0038",
+      "target": "P-0039",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0107",
+          "timestamp": "2025-09-08T22:24:54",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-13010829": {
+      "edge_id": "E-13010829",
+      "source": "P-0010",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0108",
+          "timestamp": "2025-07-05T03:37:02",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-68E985A4": {
+      "edge_id": "E-68E985A4",
+      "source": "P-0004",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0109",
+          "timestamp": "2025-08-21T03:20:15",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-B52B4158": {
+      "edge_id": "E-B52B4158",
+      "source": "P-0009",
+      "target": "P-0001",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0110",
+          "timestamp": "2025-03-06T20:33:20",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-568AFABF": {
+      "edge_id": "E-568AFABF",
+      "source": "P-0002",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0111",
+          "timestamp": "2025-11-02T00:06:11",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-C7EA6795": {
+      "edge_id": "E-C7EA6795",
+      "source": "P-0010",
+      "target": "P-0002",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0112",
+          "timestamp": "2025-01-08T13:02:35",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-366DB102": {
+      "edge_id": "E-366DB102",
+      "source": "P-0003",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0113",
+          "timestamp": "2025-02-28T02:18:50",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-B373963D": {
+      "edge_id": "E-B373963D",
+      "source": "P-0009",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0114",
+          "timestamp": "2025-01-23T23:59:23",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-87509B6B": {
+      "edge_id": "E-87509B6B",
+      "source": "P-0009",
+      "target": "P-0001",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0115",
+          "timestamp": "2025-08-07T03:55:50",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-3CECA682": {
+      "edge_id": "E-3CECA682",
+      "source": "P-0001",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0116",
+          "timestamp": "2025-05-21T22:43:50",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-21BF85F3": {
+      "edge_id": "E-21BF85F3",
+      "source": "P-0005",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0117",
+          "timestamp": "2025-08-09T03:36:39",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-99ABA66C": {
+      "edge_id": "E-99ABA66C",
+      "source": "P-0033",
+      "target": "P-0001",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0118",
+          "timestamp": "2025-04-27T15:03:59",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-34F8397F": {
+      "edge_id": "E-34F8397F",
+      "source": "P-0009",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0119",
+          "timestamp": "2025-07-11T05:33:26",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-4CB703C9": {
+      "edge_id": "E-4CB703C9",
+      "source": "P-0018",
+      "target": "P-0029",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0120",
+          "timestamp": "2025-03-08T20:15:24",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-01382FFF": {
+      "edge_id": "E-01382FFF",
+      "source": "P-0009",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0121",
+          "timestamp": "2025-08-05T01:52:23",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-C2315EAE": {
+      "edge_id": "E-C2315EAE",
+      "source": "P-0005",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0122",
+          "timestamp": "2025-04-25T03:56:24",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-B4DE94BE": {
+      "edge_id": "E-B4DE94BE",
+      "source": "P-0003",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0123",
+          "timestamp": "2025-10-15T22:38:10",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-6CF04E47": {
+      "edge_id": "E-6CF04E47",
+      "source": "P-0040",
+      "target": "P-0024",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0124",
+          "timestamp": "2025-06-08T12:22:21",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-2FF9D653": {
+      "edge_id": "E-2FF9D653",
+      "source": "P-0034",
+      "target": "P-0037",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0125",
+          "timestamp": "2025-11-21T01:06:58",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-11899489": {
+      "edge_id": "E-11899489",
+      "source": "P-0004",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0126",
+          "timestamp": "2025-06-16T20:39:55",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-F8937383": {
+      "edge_id": "E-F8937383",
+      "source": "P-0005",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0127",
+          "timestamp": "2025-12-05T15:26:16",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-D12C9385": {
+      "edge_id": "E-D12C9385",
+      "source": "P-0010",
+      "target": "P-0002",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0128",
+          "timestamp": "2025-12-14T21:35:43",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-9885806C": {
+      "edge_id": "E-9885806C",
+      "source": "P-0002",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0129",
+          "timestamp": "2025-04-15T10:58:27",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-6CC1D17F": {
+      "edge_id": "E-6CC1D17F",
+      "source": "P-0038",
+      "target": "P-0039",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0130",
+          "timestamp": "2025-09-12T15:40:46",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-C03A3CAE": {
+      "edge_id": "E-C03A3CAE",
+      "source": "P-0010",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0131",
+          "timestamp": "2025-01-22T15:52:56",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-69C7C85E": {
+      "edge_id": "E-69C7C85E",
+      "source": "P-0034",
+      "target": "P-0029",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0132",
+          "timestamp": "2025-08-02T10:32:27",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-DAD27129": {
+      "edge_id": "E-DAD27129",
+      "source": "P-0021",
+      "target": "P-0003",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0133",
+          "timestamp": "2025-12-20T13:10:28",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-99A84410": {
+      "edge_id": "E-99A84410",
+      "source": "P-0005",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0134",
+          "timestamp": "2025-06-08T12:21:40",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-968AA856": {
+      "edge_id": "E-968AA856",
+      "source": "P-0001",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0135",
+          "timestamp": "2025-06-28T12:46:59",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-4E3CC4D1": {
+      "edge_id": "E-4E3CC4D1",
+      "source": "P-0002",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0136",
+          "timestamp": "2025-12-02T02:44:36",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-7D3A327F": {
+      "edge_id": "E-7D3A327F",
+      "source": "P-0015",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0137",
+          "timestamp": "2025-11-26T23:07:49",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-C9E38D5C": {
+      "edge_id": "E-C9E38D5C",
+      "source": "P-0001",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0138",
+          "timestamp": "2025-05-21T21:31:58",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-31777497": {
+      "edge_id": "E-31777497",
+      "source": "P-0004",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0139",
+          "timestamp": "2025-05-27T02:47:37",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-D1785691": {
+      "edge_id": "E-D1785691",
+      "source": "P-0012",
+      "target": "P-0001",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0140",
+          "timestamp": "2025-11-30T06:51:12",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-7913380D": {
+      "edge_id": "E-7913380D",
+      "source": "P-0009",
+      "target": "P-0008",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0141",
+          "timestamp": "2025-06-25T03:04:13",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-2AEED60F": {
+      "edge_id": "E-2AEED60F",
+      "source": "P-0004",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0142",
+          "timestamp": "2025-07-06T13:34:30",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-1DACC7D2": {
+      "edge_id": "E-1DACC7D2",
+      "source": "P-0038",
+      "target": "P-0039",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0143",
+          "timestamp": "2025-11-20T23:34:03",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-B51F4F6C": {
+      "edge_id": "E-B51F4F6C",
+      "source": "P-0004",
+      "target": "P-0007",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0144",
+          "timestamp": "2025-11-05T05:28:29",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-FC98BAA7": {
+      "edge_id": "E-FC98BAA7",
+      "source": "P-0011",
+      "target": "P-0005",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0145",
+          "timestamp": "2025-07-20T04:41:41",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-19850B8D": {
+      "edge_id": "E-19850B8D",
+      "source": "P-0003",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0146",
+          "timestamp": "2025-12-17T19:09:55",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-EC71D5CC": {
+      "edge_id": "E-EC71D5CC",
+      "source": "P-0011",
+      "target": "P-0001",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0147",
+          "timestamp": "2025-04-20T12:26:31",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-D7B3BD7F": {
+      "edge_id": "E-D7B3BD7F",
+      "source": "P-0020",
+      "target": "P-0018",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0148",
+          "timestamp": "2025-09-17T19:39:08",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-CC64584B": {
+      "edge_id": "E-CC64584B",
+      "source": "P-0005",
+      "target": "P-0006",
+      "edge_type": "comm_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "call",
+          "record_id": "CDR-0149",
+          "timestamp": "2025-04-03T22:44:45",
+          "contribution": 0.3
+        }
+      ]
+    },
+    "E-CF660267": {
+      "edge_id": "E-CF660267",
+      "source": "P-0038",
+      "target": "P-0004",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0000",
+          "timestamp": "2025-01-23T14:57:32",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-D09A7C7B": {
+      "edge_id": "E-D09A7C7B",
+      "source": "P-0038",
+      "target": "P-0015",
+      "edge_type": "financial_edge",
+      "status": "potential_risk",
+      "risk_score": 0.6,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0001",
+          "timestamp": "2025-09-15T14:30:00",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-B4787707": {
+      "edge_id": "E-B4787707",
+      "source": "P-0038",
+      "target": "P-0015",
+      "edge_type": "financial_edge",
+      "status": "potential_risk",
+      "risk_score": 0.6,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0002",
+          "timestamp": "2025-10-03T11:15:00",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-F3259E92": {
+      "edge_id": "E-F3259E92",
+      "source": "P-0031",
+      "target": "P-0021",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0001",
+          "timestamp": "2025-10-01T08:42:28",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-7FC5B7C2": {
+      "edge_id": "E-7FC5B7C2",
+      "source": "P-0015",
+      "target": "P-0026",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0002",
+          "timestamp": "2025-08-25T10:15:32",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-F9F7BBAD": {
+      "edge_id": "E-F9F7BBAD",
+      "source": "P-0036",
+      "target": "P-0029",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0003",
+          "timestamp": "2025-11-06T05:02:20",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-D0E31750": {
+      "edge_id": "E-D0E31750",
+      "source": "P-0033",
+      "target": "P-0026",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0004",
+          "timestamp": "2025-09-22T04:32:21",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-31C95A8A": {
+      "edge_id": "E-31C95A8A",
+      "source": "P-0011",
+      "target": "P-0020",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0005",
+          "timestamp": "2025-08-12T03:20:21",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-A58DFC6E": {
+      "edge_id": "E-A58DFC6E",
+      "source": "P-0025",
+      "target": "P-0002",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0006",
+          "timestamp": "2025-05-01T14:03:35",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-EEE3359C": {
+      "edge_id": "E-EEE3359C",
+      "source": "P-0017",
+      "target": "P-0002",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0007",
+          "timestamp": "2025-11-29T12:12:27",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-14D6FB0F": {
+      "edge_id": "E-14D6FB0F",
+      "source": "P-0003",
+      "target": "P-0021",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0008",
+          "timestamp": "2025-03-13T17:04:47",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-89EE567C": {
+      "edge_id": "E-89EE567C",
+      "source": "P-0006",
+      "target": "P-0002",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0009",
+          "timestamp": "2025-11-08T19:12:56",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-29B3316A": {
+      "edge_id": "E-29B3316A",
+      "source": "P-0021",
+      "target": "P-0018",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0010",
+          "timestamp": "2025-11-24T22:40:33",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-EE52C106": {
+      "edge_id": "E-EE52C106",
+      "source": "P-0008",
+      "target": "P-0034",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0011",
+          "timestamp": "2025-10-22T08:48:31",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-0921AECD": {
+      "edge_id": "E-0921AECD",
+      "source": "P-0021",
+      "target": "P-0030",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0012",
+          "timestamp": "2025-08-02T06:49:11",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-5C86F144": {
+      "edge_id": "E-5C86F144",
+      "source": "P-0036",
+      "target": "P-0026",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0013",
+          "timestamp": "2025-09-17T20:10:33",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-91CC0F96": {
+      "edge_id": "E-91CC0F96",
+      "source": "P-0033",
+      "target": "P-0003",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0014",
+          "timestamp": "2025-01-09T13:00:05",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-FE097E9B": {
+      "edge_id": "E-FE097E9B",
+      "source": "P-0018",
+      "target": "P-0007",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0015",
+          "timestamp": "2025-03-10T01:36:51",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-8B35AF84": {
+      "edge_id": "E-8B35AF84",
+      "source": "P-0024",
+      "target": "P-0012",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0016",
+          "timestamp": "2025-09-03T23:00:02",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-C402DF24": {
+      "edge_id": "E-C402DF24",
+      "source": "P-0005",
+      "target": "P-0032",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0017",
+          "timestamp": "2025-04-13T01:31:32",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-377E94BC": {
+      "edge_id": "E-377E94BC",
+      "source": "P-0035",
+      "target": "P-0028",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0018",
+          "timestamp": "2025-01-19T23:33:10",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-F3EE4629": {
+      "edge_id": "E-F3EE4629",
+      "source": "P-0025",
+      "target": "P-0004",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0019",
+          "timestamp": "2025-07-08T15:54:32",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-73E86116": {
+      "edge_id": "E-73E86116",
+      "source": "P-0027",
+      "target": "P-0024",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0020",
+          "timestamp": "2025-07-08T18:54:22",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-ADE13831": {
+      "edge_id": "E-ADE13831",
+      "source": "P-0030",
+      "target": "P-0006",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0021",
+          "timestamp": "2025-10-07T10:41:44",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-D98CE7B2": {
+      "edge_id": "E-D98CE7B2",
+      "source": "P-0006",
+      "target": "P-0023",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0022",
+          "timestamp": "2025-08-07T06:04:02",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-1661165D": {
+      "edge_id": "E-1661165D",
+      "source": "P-0025",
+      "target": "P-0031",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0023",
+          "timestamp": "2025-11-11T15:50:08",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-67E4E6D1": {
+      "edge_id": "E-67E4E6D1",
+      "source": "P-0005",
+      "target": "P-0028",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0024",
+          "timestamp": "2025-03-23T01:08:01",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-0F3DAB0C": {
+      "edge_id": "E-0F3DAB0C",
+      "source": "P-0003",
+      "target": "P-0009",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0025",
+          "timestamp": "2025-07-05T13:56:21",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-FF102198": {
+      "edge_id": "E-FF102198",
+      "source": "P-0010",
+      "target": "P-0031",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0026",
+          "timestamp": "2025-02-09T20:53:45",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-21E961D2": {
+      "edge_id": "E-21E961D2",
+      "source": "P-0026",
+      "target": "P-0028",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0027",
+          "timestamp": "2025-01-14T06:46:25",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-4A5DB1D5": {
+      "edge_id": "E-4A5DB1D5",
+      "source": "P-0027",
+      "target": "P-0040",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0028",
+          "timestamp": "2025-08-17T07:48:44",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-9832E97A": {
+      "edge_id": "E-9832E97A",
+      "source": "P-0034",
+      "target": "P-0015",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0029",
+          "timestamp": "2025-03-30T16:12:21",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-6B5CB3B6": {
+      "edge_id": "E-6B5CB3B6",
+      "source": "P-0025",
+      "target": "P-0005",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0030",
+          "timestamp": "2025-03-22T23:13:04",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-B605F038": {
+      "edge_id": "E-B605F038",
+      "source": "P-0035",
+      "target": "P-0017",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0031",
+          "timestamp": "2025-05-02T17:59:12",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-3A1340BD": {
+      "edge_id": "E-3A1340BD",
+      "source": "P-0040",
+      "target": "P-0026",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0032",
+          "timestamp": "2025-11-10T03:08:20",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-99A1B650": {
+      "edge_id": "E-99A1B650",
+      "source": "P-0028",
+      "target": "P-0033",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0033",
+          "timestamp": "2025-10-22T02:41:06",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-E2F5C10B": {
+      "edge_id": "E-E2F5C10B",
+      "source": "P-0005",
+      "target": "P-0031",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0034",
+          "timestamp": "2025-10-10T23:17:39",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-4C273242": {
+      "edge_id": "E-4C273242",
+      "source": "P-0009",
+      "target": "P-0030",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0035",
+          "timestamp": "2025-03-05T18:51:48",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-54A996BB": {
+      "edge_id": "E-54A996BB",
+      "source": "P-0011",
+      "target": "P-0023",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0036",
+          "timestamp": "2025-05-26T02:52:16",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-20B1B3A0": {
+      "edge_id": "E-20B1B3A0",
+      "source": "P-0040",
+      "target": "P-0020",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0037",
+          "timestamp": "2025-02-17T18:17:53",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-41FE01D1": {
+      "edge_id": "E-41FE01D1",
+      "source": "P-0010",
+      "target": "P-0011",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0038",
+          "timestamp": "2025-06-22T20:31:14",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-212AA7BA": {
+      "edge_id": "E-212AA7BA",
+      "source": "P-0006",
+      "target": "P-0003",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0039",
+          "timestamp": "2025-11-30T07:40:31",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-1CD60E53": {
+      "edge_id": "E-1CD60E53",
+      "source": "P-0002",
+      "target": "P-0034",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0040",
+          "timestamp": "2025-06-04T17:35:00",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-43D9E8CB": {
+      "edge_id": "E-43D9E8CB",
+      "source": "P-0022",
+      "target": "P-0032",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0041",
+          "timestamp": "2025-08-01T17:37:51",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-C8717460": {
+      "edge_id": "E-C8717460",
+      "source": "P-0024",
+      "target": "P-0010",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0042",
+          "timestamp": "2025-06-26T14:31:00",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-9A4DCD31": {
+      "edge_id": "E-9A4DCD31",
+      "source": "P-0035",
+      "target": "P-0040",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0043",
+          "timestamp": "2025-05-17T16:22:09",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-F2996D5B": {
+      "edge_id": "E-F2996D5B",
+      "source": "P-0007",
+      "target": "P-0004",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0044",
+          "timestamp": "2025-08-03T09:02:21",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-CA4151BD": {
+      "edge_id": "E-CA4151BD",
+      "source": "P-0023",
+      "target": "P-0015",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0045",
+          "timestamp": "2025-08-28T18:09:33",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-8D581B3C": {
+      "edge_id": "E-8D581B3C",
+      "source": "P-0002",
+      "target": "P-0006",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0046",
+          "timestamp": "2025-04-21T21:14:20",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-A1E1D2AF": {
+      "edge_id": "E-A1E1D2AF",
+      "source": "P-0004",
+      "target": "P-0021",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0047",
+          "timestamp": "2025-12-11T17:08:00",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-1999E5E1": {
+      "edge_id": "E-1999E5E1",
+      "source": "P-0001",
+      "target": "P-0007",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0048",
+          "timestamp": "2025-07-07T14:40:55",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-90613C50": {
+      "edge_id": "E-90613C50",
+      "source": "P-0028",
+      "target": "P-0004",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0049",
+          "timestamp": "2025-05-28T02:40:37",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-0F868E91": {
+      "edge_id": "E-0F868E91",
+      "source": "P-0031",
+      "target": "P-0040",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0050",
+          "timestamp": "2025-11-09T04:19:32",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-4717C288": {
+      "edge_id": "E-4717C288",
+      "source": "P-0028",
+      "target": "P-0026",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0051",
+          "timestamp": "2025-03-15T07:14:50",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-A93AC133": {
+      "edge_id": "E-A93AC133",
+      "source": "P-0028",
+      "target": "P-0035",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0052",
+          "timestamp": "2025-06-20T17:14:54",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-32CAB3FF": {
+      "edge_id": "E-32CAB3FF",
+      "source": "P-0010",
+      "target": "P-0035",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0053",
+          "timestamp": "2025-03-25T14:18:25",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-3C41FA23": {
+      "edge_id": "E-3C41FA23",
+      "source": "P-0024",
+      "target": "P-0035",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0054",
+          "timestamp": "2025-10-16T10:54:54",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-5DC4979B": {
+      "edge_id": "E-5DC4979B",
+      "source": "P-0026",
+      "target": "P-0024",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0055",
+          "timestamp": "2025-06-07T22:54:38",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-E9A0F72F": {
+      "edge_id": "E-E9A0F72F",
+      "source": "P-0019",
+      "target": "P-0017",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0056",
+          "timestamp": "2025-09-26T22:54:07",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-B3124CBB": {
+      "edge_id": "E-B3124CBB",
+      "source": "P-0010",
+      "target": "P-0018",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0057",
+          "timestamp": "2025-04-08T00:41:22",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-06533344": {
+      "edge_id": "E-06533344",
+      "source": "P-0029",
+      "target": "P-0010",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0058",
+          "timestamp": "2025-11-10T17:10:14",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-84CCCB95": {
+      "edge_id": "E-84CCCB95",
+      "source": "P-0009",
+      "target": "P-0036",
+      "edge_type": "financial_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "transaction",
+          "record_id": "TXN-0059",
+          "timestamp": "2025-09-02T19:07:55",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-3941D8E5": {
+      "edge_id": "E-3941D8E5",
+      "source": "P-0038",
+      "target": "P-0015",
+      "edge_type": "location_edge",
+      "status": "potential_risk",
+      "risk_score": 0.6,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0001_EVT-0001",
+          "timestamp": "2025-10-05T16:44:09",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-73175A23": {
+      "edge_id": "E-73175A23",
+      "source": "P-0038",
+      "target": "P-0015",
+      "edge_type": "location_edge",
+      "status": "potential_risk",
+      "risk_score": 0.6,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0002_EVT-0002",
+          "timestamp": "2025-10-26T16:44:09",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-EF5FC4FC": {
+      "edge_id": "E-EF5FC4FC",
+      "source": "P-0012",
+      "target": "P-0032",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0003_EVT-0003",
+          "timestamp": "2025-07-01T23:25:19",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-F527F720": {
+      "edge_id": "E-F527F720",
+      "source": "P-0040",
+      "target": "P-0022",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0004_EVT-0004",
+          "timestamp": "2025-06-02T10:31:20",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-6FBFE409": {
+      "edge_id": "E-6FBFE409",
+      "source": "P-0020",
+      "target": "P-0021",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0005_EVT-0005",
+          "timestamp": "2025-07-14T14:21:52",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-B0E6BED4": {
+      "edge_id": "E-B0E6BED4",
+      "source": "P-0006",
+      "target": "P-0025",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0006_EVT-0006",
+          "timestamp": "2025-09-03T07:47:27",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-70E87733": {
+      "edge_id": "E-70E87733",
+      "source": "P-0007",
+      "target": "P-0018",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0007_EVT-0007",
+          "timestamp": "2025-09-29T08:12:59",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-1E0BBD49": {
+      "edge_id": "E-1E0BBD49",
+      "source": "P-0009",
+      "target": "P-0001",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0008_EVT-0008",
+          "timestamp": "2025-03-22T14:48:54",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-DD38C145": {
+      "edge_id": "E-DD38C145",
+      "source": "P-0021",
+      "target": "P-0023",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0009_EVT-0009",
+          "timestamp": "2025-02-15T23:44:58",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-64EF380E": {
+      "edge_id": "E-64EF380E",
+      "source": "P-0012",
+      "target": "P-0029",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0010_EVT-0010",
+          "timestamp": "2025-01-19T14:27:14",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-BBCCB263": {
+      "edge_id": "E-BBCCB263",
+      "source": "P-0003",
+      "target": "P-0001",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0011_EVT-0011",
+          "timestamp": "2025-06-21T10:21:38",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-D932DBF2": {
+      "edge_id": "E-D932DBF2",
+      "source": "P-0035",
+      "target": "P-0032",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0012_EVT-0012",
+          "timestamp": "2025-06-19T05:54:58",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-D0FD9515": {
+      "edge_id": "E-D0FD9515",
+      "source": "P-0021",
+      "target": "P-0015",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0013_EVT-0013",
+          "timestamp": "2025-07-27T15:34:19",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-E804EAC1": {
+      "edge_id": "E-E804EAC1",
+      "source": "P-0033",
+      "target": "P-0023",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0014_EVT-0014",
+          "timestamp": "2025-07-16T08:34:30",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-39D065D7": {
+      "edge_id": "E-39D065D7",
+      "source": "P-0001",
+      "target": "P-0019",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0015_EVT-0015",
+          "timestamp": "2025-02-01T04:18:15",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-FFF17079": {
+      "edge_id": "E-FFF17079",
+      "source": "P-0022",
+      "target": "P-0008",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0016_EVT-0016",
+          "timestamp": "2025-07-08T22:22:40",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-8203F97B": {
+      "edge_id": "E-8203F97B",
+      "source": "P-0026",
+      "target": "P-0029",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0017_EVT-0017",
+          "timestamp": "2025-10-03T07:57:07",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-0A34CABD": {
+      "edge_id": "E-0A34CABD",
+      "source": "P-0031",
+      "target": "P-0036",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0018_EVT-0018",
+          "timestamp": "2025-10-16T04:05:07",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-2801043F": {
+      "edge_id": "E-2801043F",
+      "source": "P-0011",
+      "target": "P-0023",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0019_EVT-0019",
+          "timestamp": "2025-12-15T07:28:42",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-A9EB4BA3": {
+      "edge_id": "E-A9EB4BA3",
+      "source": "P-0032",
+      "target": "P-0009",
+      "edge_type": "location_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "colocation",
+          "record_id": "EVT-0020_EVT-0020",
+          "timestamp": "2025-01-30T20:20:42",
+          "contribution": 1.0
+        }
+      ]
+    },
+    "E-413A2522": {
+      "edge_id": "E-413A2522",
+      "source": "P-0001",
+      "target": "P-0004",
+      "edge_type": "case_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "case_mention",
+          "record_id": "FIR-2026-0042",
+          "timestamp": "2025-06-26T02:19:17",
+          "contribution": 0.25
+        }
+      ]
+    },
+    "E-A7481B99": {
+      "edge_id": "E-A7481B99",
+      "source": "P-0001",
+      "target": "P-0002",
+      "edge_type": "case_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "case_mention",
+          "record_id": "FIR-2026-0042",
+          "timestamp": "2025-06-26T02:19:17",
+          "contribution": 0.25
+        }
+      ]
+    },
+    "E-C4FCF3BE": {
+      "edge_id": "E-C4FCF3BE",
+      "source": "P-0004",
+      "target": "P-0002",
+      "edge_type": "case_edge",
+      "status": "candidate",
+      "risk_score": 0.0,
+      "evidence": [
+        {
+          "type": "case_mention",
+          "record_id": "FIR-2026-0042",
+          "timestamp": "2025-01-31T02:30:46",
+          "contribution": 0.25
+        }
+      ]
+    }
+  }
+}

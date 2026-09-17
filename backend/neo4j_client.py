@@ -4,49 +4,33 @@ from pathlib import Path
 from typing import Dict, Any, List, Optional
 import networkx as nx
 
-try:
-    from neo4j import GraphDatabase
-    NEO4J_AVAILABLE = True
-except ImportError:
-    NEO4J_AVAILABLE = False
+NEO4J_AVAILABLE = False
 
 
 class Neo4jClient:
     """
-    Dual-mode graph client:
-    1. Connects to Neo4j with GDS when available (bolt://localhost:7687)
-    2. Falls back seamlessly to an Embedded Graph Store (backed by NetworkX + data/graph_store.json)
-       when Neo4j/Docker is not running locally.
+    Embedded-only graph client for the prototype deployment.
+    The application uses the bundled JSON graph store and NetworkX for all runtime graph operations.
     """
-    def __init__(self, uri='bolt://localhost:7687', user='neo4j', password='password123', store_path=None):
-        self.uri = uri
-        self.user = user
-        self.password = password
+    def __init__(self, uri=None, user=None, password=None, store_path=None):
+        self.uri = None
+        self.user = None
+        self.password = None
         self.driver = None
         self.is_embedded = True
-        
-        project_root = Path(__file__).parent.parent
-        self.store_path = Path(store_path) if store_path else project_root / 'data' / 'graph_store.json'
-        self.store_path.parent.mkdir(parents=True, exist_ok=True)
-        
+
+        backend_root = Path(__file__).parent
+        self.store_path = Path(store_path) if store_path else backend_root / 'data' / 'graph_store.json'
+        try:
+            self.store_path.parent.mkdir(parents=True, exist_ok=True)
+        except OSError:
+            pass
+
         # Local in-memory graph structures
         self.nodes: Dict[str, Dict[str, Any]] = {}
         self.edges: Dict[str, Dict[str, Any]] = {}
         self._load_store()
-
-        if NEO4J_AVAILABLE:
-            try:
-                # Test connectivity with a short timeout
-                test_driver = GraphDatabase.driver(uri, auth=(user, password), connection_timeout=1.0)
-                test_driver.verify_connectivity()
-                self.driver = test_driver
-                self.is_embedded = False
-                print(f"[Neo4jClient] Connected to live Neo4j database at {uri}")
-            except Exception:
-                self.is_embedded = True
-                print(f"[Neo4jClient] Neo4j not reachable at {uri}. Operating in Embedded Graph Store mode.")
-        else:
-            print("[Neo4jClient] neo4j driver not installed. Operating in Embedded Graph Store mode.")
+        print("[Neo4jClient] Operating in embedded graph store mode.")
 
     def _load_store(self):
         """Loads nodes and edges from local JSON store if present."""

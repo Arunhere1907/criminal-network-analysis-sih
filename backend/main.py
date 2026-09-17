@@ -1,15 +1,20 @@
-import sys
-import os
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from backend.neo4j_client import Neo4jClient
-from backend.ledger import AuditLedger
+
 try:
-    from backend.models import *
+    from .neo4j_client import Neo4jClient
+    from .ledger import AuditLedger
 except ImportError:
-    pass
+    from neo4j_client import Neo4jClient
+    from ledger import AuditLedger
+
+try:
+    from .models import *
+except ImportError:
+    try:
+        from models import *
+    except ImportError:
+        pass
 
 from contextlib import asynccontextmanager
 from typing import Optional, List, Dict, Any
@@ -241,13 +246,7 @@ def get_ledger(page: int = Query(1, ge=1), per_page: int = Query(50, ge=1, le=10
     try:
         blocks = app.state.ledger.get_all(page=page, per_page=per_page)
         
-        import sqlite3
-        with sqlite3.connect(app.state.ledger.db_path) as conn:
-            cursor = conn.cursor()
-            cursor.execute("SELECT COUNT(*) FROM ledger")
-            total = cursor.fetchone()[0]
-        
-        return {"blocks": blocks, "total": total, "page": page}
+        return {"blocks": blocks, "total": app.state.ledger.count(), "page": page}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
