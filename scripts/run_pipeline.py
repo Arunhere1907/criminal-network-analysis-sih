@@ -31,7 +31,7 @@ def main():
     from backend.ledger import AuditLedger
 
     client = Neo4jClient()
-    ledger = AuditLedger(os.path.join(PROJECT_ROOT, 'data', 'ledger.db'))
+    ledger = AuditLedger()
 
     try:
         from backend.entity_resolution import EntityResolver

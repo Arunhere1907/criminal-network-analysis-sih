@@ -17,20 +17,20 @@ The UI is an investigator-facing workstation: network exploration, risk review, 
 ## Architecture
 
 ```text
-React (Vite)  →  FastAPI  →  Graph store (Neo4j or embedded NetworkX JSON)
-                              + SQLite audit ledger
+React (Vite)  →  FastAPI  →  NetworkX + graph_store.json
+                              + Supabase PostgreSQL audit ledger
 ```
 
 When Neo4j is unavailable, the backend falls back to an embedded graph store (`data/graph_store.json`) so the prototype remains runnable locally without Docker.
 
 ## Tech stack
 
-| Layer | Technology |
-|-------|------------|
-| Frontend | React 18, Vite, Tailwind CSS, Cytoscape.js, Axios, Lucide |
-| Backend | Python, FastAPI, NetworkX (embedded), optional Neo4j GDS |
-| Data | Synthetic CDR / financial / co-location / FIR CSV inputs |
-| Provenance | SQLite hash-chained audit ledger |
+| Layer      | Technology                                                |
+| ---------- | --------------------------------------------------------- |
+| Frontend   | React 18, Vite, Tailwind CSS, Cytoscape.js, Axios, Lucide |
+| Backend    | Python, FastAPI, NetworkX (embedded), optional Neo4j GDS  |
+| Data       | Synthetic CDR / financial / co-location / FIR CSV inputs  |
+| Provenance | Supabase PostgreSQL hash-chained audit ledger             |
 
 ## Prerequisites
 
@@ -44,7 +44,14 @@ When Neo4j is unavailable, the backend falls back to an embedded graph store (`d
 
 ```bash
 pip install -r backend/requirements.txt
+export DATABASE_URL='postgresql://postgres:[PASSWORD]@[PROJECT-REF].pooler.supabase.com:6543/postgres'
 uvicorn backend.main:app --reload --port 8000
+```
+
+The backend creates the `audit_ledger` table and its index on startup. The old `data/ledger.db` is not deleted. To import it after setting `DATABASE_URL`, run:
+
+```bash
+python scripts/migrate_ledger.py
 ```
 
 Optional Neo4j:
@@ -74,38 +81,63 @@ npm run dev
 
 Open the URL printed by Vite (typically `http://127.0.0.1:5173`).
 
+## Supabase and Vercel setup
+
+1. In Supabase, open **Connect** and copy the PostgreSQL URI. Use the pooled URI for serverless deployments, preferably the transaction pooler on port `6543`; replace the password placeholder with the database password. Do not commit it.
+2. In Supabase SQL Editor, run:
+
+```sql
+CREATE TABLE IF NOT EXISTS audit_ledger (
+  block_id BIGSERIAL PRIMARY KEY,
+  action TEXT NOT NULL,
+  ref TEXT NOT NULL,
+  actor TEXT NOT NULL,
+  timestamp TEXT NOT NULL,
+  details TEXT,
+  prev_hash CHAR(64) NOT NULL,
+  hash CHAR(64) NOT NULL UNIQUE
+);
+CREATE INDEX IF NOT EXISTS audit_ledger_timestamp_idx
+  ON audit_ledger (timestamp, block_id);
+```
+
+3. In Vercel, open the backend project at **Settings → Environment Variables**, add `DATABASE_URL` with the Supabase PostgreSQL URI for Production (and Preview if used), then redeploy the backend project.
+4. Test `GET /ledger` and `GET /ledger/verify`. A fresh ledger returns `{"blocks": [], "total": 0, "page": 1}` and a valid empty chain. After an action, repeat both requests and confirm `blocks_checked` increases.
+
+The graph remains NetworkX-backed and persisted through `data/graph_store.json`. Neo4j is not required or introduced by the ledger migration. The frontend API contract remains unchanged.
+
 ## Demo workflow
 
-1. **Network Explorer** — inspect the full relationship graph  
-2. **Potential Risk** — open the financier–courier finding (no direct calls; co-location + financial signals)  
-3. **Evidence** — review contribution breakdown and fused risk score  
-4. **Confirm Relationship** — promotes the edge and writes a ledger block  
-5. **Audit Ledger** — verify chain integrity  
-6. **Root Cause** — from a subject panel, trace origin from a seized-drugs FIR  
-7. **Centrality** — compare betweenness vs degree for intermediary roles  
+1. **Network Explorer** — inspect the full relationship graph
+2. **Potential Risk** — open the financier–courier finding (no direct calls; co-location + financial signals)
+3. **Evidence** — review contribution breakdown and fused risk score
+4. **Confirm Relationship** — promotes the edge and writes a ledger block
+5. **Audit Ledger** — verify chain integrity
+6. **Root Cause** — from a subject panel, trace origin from a seized-drugs FIR
+7. **Centrality** — compare betweenness vs degree for intermediary roles
 
 ## API
 
-| Method | Path | Description |
-|--------|------|-------------|
-| `GET` | `/graph` | Full graph (or 2-hop neighborhood with `node_id`) |
-| `GET` | `/nodes/{node_id}` | Node detail + evidence timeline |
-| `GET` | `/nodes/{node_id}/centrality` | PageRank and betweenness |
-| `GET` | `/risk-queue` | Potential-risk edges by score |
-| `POST` | `/risk-queue/{edge_id}/confirm` | Confirm relationship |
-| `POST` | `/risk-queue/{edge_id}/dismiss` | Dismiss finding |
-| `GET` | `/communities` | Louvain communities |
-| `GET` | `/root-cause/{event_id}` | Backward traversal from an event/FIR |
-| `GET` | `/ledger` | Paginated audit blocks |
-| `GET` | `/ledger/verify` | Hash-chain integrity check |
-| `GET` | `/stats` | Aggregate counts |
+| Method | Path                            | Description                                       |
+| ------ | ------------------------------- | ------------------------------------------------- |
+| `GET`  | `/graph`                        | Full graph (or 2-hop neighborhood with `node_id`) |
+| `GET`  | `/nodes/{node_id}`              | Node detail + evidence timeline                   |
+| `GET`  | `/nodes/{node_id}/centrality`   | PageRank and betweenness                          |
+| `GET`  | `/risk-queue`                   | Potential-risk edges by score                     |
+| `POST` | `/risk-queue/{edge_id}/confirm` | Confirm relationship                              |
+| `POST` | `/risk-queue/{edge_id}/dismiss` | Dismiss finding                                   |
+| `GET`  | `/communities`                  | Louvain communities                               |
+| `GET`  | `/root-cause/{event_id}`        | Backward traversal from an event/FIR              |
+| `GET`  | `/ledger`                       | Paginated audit blocks                            |
+| `GET`  | `/ledger/verify`                | Hash-chain integrity check                        |
+| `GET`  | `/stats`                        | Aggregate counts                                  |
 
 ## Project layout
 
 ```text
 backend/     FastAPI app, fusion, extractors, ledger, graph client
 frontend/    React investigation UI
-data/        Synthetic inputs + embedded graph store + ledger DB
+data/        Synthetic inputs + embedded graph store + legacy ledger DB
 scripts/     Data generation and pipeline runners
 ```
 

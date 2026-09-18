@@ -6,3 +6,4 @@ rapidfuzz==3.5.2
 Faker==20.1.0
 pydantic==2.5.2
 pydantic-settings==2.2.1
+psycopg[binary]>=3.2.10,<3.3

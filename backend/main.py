@@ -190,7 +190,7 @@ def confirm_risk(edge_id: str):
         )
         return {"message": "Edge confirmed", "edge_id": edge_id}
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail="Unable to confirm risk and record the audit event") from e
 
 
 @app.post("/risk-queue/{edge_id}/dismiss", summary="Dismiss a potential risk")
@@ -210,7 +210,7 @@ def dismiss_risk(edge_id: str):
         )
         return {"message": "Edge dismissed", "edge_id": edge_id}
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail="Unable to dismiss risk and record the audit event") from e
 
 
 @app.get("/communities", summary="Get community detection results")
@@ -248,7 +248,7 @@ def get_ledger(page: int = Query(1, ge=1), per_page: int = Query(50, ge=1, le=10
         
         return {"blocks": blocks, "total": app.state.ledger.count(), "page": page}
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail="Audit ledger is unavailable") from e
 
 
 @app.get("/ledger/verify", summary="Verify ledger chain integrity")
@@ -260,7 +260,7 @@ def verify_ledger():
         result = app.state.ledger.verify_chain()
         return result
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail="Audit ledger verification is unavailable") from e
 
 
 @app.get("/stats", summary="Get dashboard statistics")
